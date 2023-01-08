@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FibonaciFragment">
+
+    <LinearLayout
+        android:gravity="center"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Input The-N of fibonacci" />
+
+        <EditText
+
+            android:id="@+id/etN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="input here"
+            android:inputType="numberSigned"
+            android:textSize="18dp" />
+
+        <Button
+            android:gravity="center"
+
+            android:id="@+id/buttonProcess"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Process" />
+
+        <TextView
+
+            android:gravity="center"
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Result" />
+
+        <TextView
+            android:gravity="center"
+            android:textSize="18dp"
+            android:id="@+id/tvResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="null" />
+    </LinearLayout>
+</FrameLayout>
